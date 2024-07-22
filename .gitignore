@@ -1,0 +1,75 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# TypeScript (in typescript/ folder)
+typescript/node_modules/
+typescript/dist/
+typescript/*.tsbuildinfo
+typescript/npm-debug.log*
+typescript/yarn-debug.log*
+typescript/yarn-error.log*
+
+# Go (in go/ folder)
+go/*.exe
+go/*.exe~
+go/*.dll
+go/*.so
+go/*.dylib
+go/*.test
+go/*.out
+go/go.work
+
+# Rust (in rust/ folder)
+rust/target/
+rust/**/*.rs.bk
+rust/Cargo.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Temporary folders
+tmp/
+temp/
